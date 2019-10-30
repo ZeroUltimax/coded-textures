@@ -1,0 +1,28 @@
+{
+  "name": "codedtextures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+  },
+  "dependencies": {
+    "@threekit/three-math": "1.0.4",
+    "canvas": "2.4.1"
+  },
+  "devDependencies": {
+    "@threekit/tslint": "^1.0.1",
+    "@types/jest": "^23.3.9",
+    "@types/mkdirp": "0.5.2",
+    "@types/node": "10.12.21",
+    "jest": "24.0.0",
+    "mkdirp": "0.5.1",
+    "ts-jest": "24.0.0",
+    "ts-node": "7.0.1",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "1.17.0",
+    "typescript": "3.1.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "plugins": [{ "name": "typescript-workspace-plugin" }],
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "target": "es2017"
+  },
+  "include": ["src/**/*"]
+}
